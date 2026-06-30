@@ -10,3 +10,6 @@ php artisan route:cache
 
 echo "Running migrations..."
 php artisan migrate --force
+
+echo "Starting queue worker..."
+php artisan queue:work --tries=3 --timeout=90 &
