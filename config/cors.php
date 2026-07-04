@@ -19,7 +19,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['https://inventory-frontend.onrender.com'],
+    'allowed_origins' => ['https://inventory-frontend-mixp.onrender.com'],
 
     'allowed_origins_patterns' => [],
 
